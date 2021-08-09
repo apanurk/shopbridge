@@ -6,6 +6,7 @@ ShopBridge is shopping cart system.  It two kind of users, admin and customer us
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 
+
 # start json:server
 
 open cmd in server folder(ShopBridge\server\) run command # json-server --watch db.json   It’ll run your server locally on http://localhost:3000.
@@ -14,4 +15,10 @@ open cmd in server folder(ShopBridge\server\) run command # json-server --watch 
 
 Run ng build to build the project. The build artifacts will be stored in the dist/ directory.
 
-
+#login credential:
+ for admin: admin@gmail.com 
+      pass:admin
+      
+ for user: user@gmail.com 
+      pass:user
+   
