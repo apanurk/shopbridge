@@ -16,6 +16,7 @@ open cmd in server folder(ShopBridge\server\) run command # json-server --watch 
 Run ng build to build the project. The build artifacts will be stored in the dist/ directory.
 
 #login credential:
+ 
  for admin: admin@gmail.com 
       pass:admin
       
