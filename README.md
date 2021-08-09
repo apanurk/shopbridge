@@ -1,5 +1,5 @@
 # shopbridege
-ShopBridge is shopping cart system.  It two kind of users, admin and customer user.   Admin user-  Admin can view the list of customer users. Customers, Stocks, Orders tabs are visibly for admin log in only.  Admin can add the product in inventory by ordering a list of specific quantity of the products.  Admin can modify the given order.  Admin can delete the given oder.  Admin can monitor availability of stock, if the quantity is below 40 units it will indicated in red.   Customer user- User can can do registration and log in to the application.  On log in user can add items to shopping cart, remove items and checkout.
+ShopBridge is shopping cart system.  It has two kinds of users, admin and customer user.   Admin user-  Admin can view the list of customer users. Customers, Stocks, Orders tabs are visible for admin login only.  Admin can add the product in inventory by ordering a list of specific quantity of the products.  Admin can modify the given order.  Admin can delete the given oder.  Admin can monitor availability of stock, if the quantity is below 40 units it will be indicated in red.   Customer user- User can can do registration and login to the application.  On log in user can filter items category wise and add items to shopping cart, remove items and checkout.
 
 # Development server
 
