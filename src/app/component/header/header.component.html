@@ -1,0 +1,28 @@
+<header>
+    <div class="navbar navbar-dark bg-primary shadow-sm" >
+        <div class="navbar-brand align-item-center d-flex">
+            <i style="font-size: 40px;" class="fas fa-shipping-fast" routerLink="/products">&nbsp;
+                
+            </i>
+            <strong style="font-size: 30px;" routerLink="/products"><b>ShopBridge</b></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <spam *ngIf="role == 'admin@gmail.com'" style="font-size: 20px; margin-top: 10px;" routerLink="/customers">Customers</spam>&nbsp;&nbsp;&nbsp;
+            <spam *ngIf="role == 'admin@gmail.com'" style="font-size: 20px; margin-top: 10px;" routerLink="/stocks">Stocks </spam>&nbsp;&nbsp;&nbsp;
+            <spam *ngIf="role == 'admin@gmail.com'" style="font-size: 20px; margin-top: 10px;" routerLink="/order">Orders </spam>&nbsp;&nbsp;&nbsp;
+            <!-- <spam *ngIf="role == 'admin@gmail.com'" style="font-size: 20px; margin-top: 10px;" routerLink="/products">Transaction </spam>&nbsp;&nbsp;&nbsp; -->
+            <!-- <div class="form-group">
+                <input type="text"  class="form-control" placeholder="search products" >
+            </div>
+            <span class="fas fa-search search-icon"></span> -->
+
+
+        </div>
+     
+        <button routerLink="cart" class="btn btn-primary">
+            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+            <span style="margin-left:10px;"><a href="logout.php" routerLink="/login" class="navbar-brand"><strong>Logout</strong></a></span>
+        </button>
+        
+        
+    </div>
+</header>
